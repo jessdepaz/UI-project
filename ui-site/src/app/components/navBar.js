@@ -15,7 +15,7 @@ const NavBar = () => {
           <Link href="/storyboard" className="text-white hover:text-gray-400">Storyboard</Link>
           <Link href="/moodboard" className="text-white hover:text-gray-400">Moodboard</Link>
           <Link href="/flowchart" className="text-white hover:text-gray-400">Flowchart</Link>
-          <Link href="/wireframes" className="text-white hover:text-gray-400">Wireframes</Link>
+          <Link href="/wireframe" className="text-white hover:text-gray-400">Wireframe</Link>
           <Link href="/gui" className="text-white hover:text-gray-400">GUI</Link>
           <Link href="/prototype" className="text-white hover:text-gray-400">Prototype</Link>
           <Link href="/references" className="text-white hover:text-gray-400">References</Link>

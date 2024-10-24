@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import myImage1 from 'public/images/Jessica&Michael.jpg';
-import myImage2 from 'public/images/Lina&David.jpg';
-import myImage3 from 'public/images/Sophia&Mark.jpg'; 
+import myImage1 from '/images/Jessica&Michael.jpg';
+import myImage2 from '/images/Lina&David.jpg';
+import myImage3 from '/images/Sophia&Mark.jpg'; 
 
 const images = [
   { src: myImage1, alt: 'Description of image 1' },

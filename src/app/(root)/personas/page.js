@@ -32,7 +32,7 @@ export default function Personas() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {personas.map((persona, index) => (
           <div key={index} className="bg-white shadow-md rounded-lg p-6">
-            <h2 className="text-2xl font-semibold">{persona.name} (Ages: {persona.ages})</h2>
+            <h2 className="text-2xl font-semibold text-gray-700">{persona.name} (Ages: {persona.ages})</h2>
             <p className="mt-2 text-gray-600"><strong>Frustrations:</strong> {persona.frustrations}</p>
             <p className="mt-2 text-gray-600"><strong>Motivations:</strong> {persona.motivations}</p>
             <p className="mt-2 text-gray-600"><strong>Backstory:</strong> {persona.backstory}</p>

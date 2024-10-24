@@ -15,9 +15,9 @@ export default function Scenario() {
         <p className="text-lg">
           Scenarios for the Couples
         </p>
-        <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-4 flex flex-col items-center space-y-4">
                 {images.map((image, index) => (
-                    <div key={index} className="relative">
+                    <div key={index} className="relative w-full flex justify-center">
                         <Image
                             src={image.src}
                             alt={image.alt}

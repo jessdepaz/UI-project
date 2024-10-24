@@ -11,7 +11,7 @@ const images = [
 export default function Scenario() {
     return (
       <div className="container mx-auto p-6">
-        <h1 className="text-4xl font-bold mb-4">Research</h1>
+        <h1 className="text-4xl font-bold mb-4">Scenario</h1>
         <p className="text-lg">
           Scenarios for the Couples
         </p>

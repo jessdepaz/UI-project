@@ -1,12 +1,10 @@
 import Image from 'next/image';
-import myImage1 from '/images/Jessica&Michael.jpg';
-import myImage2 from '/images/Lina&David.jpg';
-import myImage3 from '/images/Sophia&Mark.jpg'; 
+
 
 const images = [
-  { src: myImage1, alt: 'Description of image 1' },
-  { src: myImage2, alt: 'Description of image 2' },
-  { src: myImage3, alt: 'Description of image 3' },
+  { src: '/images/Jessica&Michael.jpg', alt: 'Description of image 1' },
+  { src: '/images/Lina&David.jpg', alt: 'Description of image 2' },
+  { src: '/images/Sophia&Mark.jpg', alt: 'Description of image 3' },
 ];
 
 

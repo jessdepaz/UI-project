@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import myImage1 from '/Users/Valerie/Desktop/UI-project/src/app/(root)/scenario/Jessica&Michael.jpg';
-import myImage2 from '/Users/Valerie/Desktop/UI-project/src/app/(root)/scenario/Lina&David.jpg';
-import myImage3 from '/Users/Valerie/Desktop/UI-project/src/app/(root)/scenario/Sophia&Mark.jpg'; // Adjust the path as necessary
+import myImage1 from '/Users/Valerie/Desktop/UI-project/public/images/Jessica&Michael.jpg';
+import myImage2 from '/Users/Valerie/Desktop/UI-project/public/images/Lina&David.jpg';
+import myImage3 from '/Users/Valerie/Desktop/UI-project/public/images/Sophia&Mark.jpg'; 
 
 const images = [
   { src: myImage1, alt: 'Description of image 1' },

@@ -15,8 +15,8 @@ const geistMono = localFont({
 
 // Update the metadata object correctly
 export const metadata = {
-  title: "Blissful Pages - Wedding Website Maker",
-  description: "A platform to create better, more custom, and inclusive wedding websites.",
+  title: "BlissfulPages",
+  description: "A platform recording the protyping of a Wedding Website Maker striving to create better, custom, and inclusive wedding websites.", 
   // Correctly set the favicon here
   icons: {
     icon: "/favicon.png", // Ensure this path is correct

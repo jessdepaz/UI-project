@@ -1,19 +1,17 @@
 import Image from 'next/image';
 
-
 const images = [
-  { src: '/images/Jessica&Michael.jpg', alt: 'Description of image 1' },
-  { src: '/images/Lina&David.jpg', alt: 'Description of image 2' },
-  { src: '/images/Sophia&Mark.jpg', alt: 'Description of image 3' },
+  { src: '/images/scenario/Jessica&Michael.jpg', alt: 'Jessica and Micheal Scenrio Chart' },
+  { src: '/images/scenario/Lina&David.jpg', alt: 'Lina and David Scenrio Chart' },
+  { src: '/images/scenario/Sophia&Mark.jpg', alt: 'Sophia and Mark Scenrio Chart' },
 ];
-
 
 export default function Scenario() {
     return (
       <div className="container mx-auto p-6">
-        <h1 className="text-4xl font-bold mb-4">Scenario</h1>
-        <p className="text-lg">
-          Scenarios for the Couples
+        <h1 className="text-4xl font-bold mb-4">Scenarios</h1>
+        <p className="text-md">
+          Below are images showing the possible scenarios for our ideal personas.
         </p>
         <div className="mt-4 flex flex-col items-center space-y-4">
                 {images.map((image, index) => (

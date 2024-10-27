@@ -1,9 +1,9 @@
 import Image from 'next/image';
 
 const images = [
-  { src: '/images/scenario/Jessica&Michael.jpg', alt: 'Jessica and Micheal Scenrio Chart' },
-  { src: '/images/scenario/Lina&David.jpg', alt: 'Lina and David Scenrio Chart' },
-  { src: '/images/scenario/Sophia&Mark.jpg', alt: 'Sophia and Mark Scenrio Chart' },
+  { src: '/images/scenario/Jessica&Michael.jpg', alt: 'Jessica and Micheal Scenario Chart' },
+  { src: '/images/scenario/Lina&David.jpg', alt: 'Lina and David Scenario Chart' },
+  { src: '/images/scenario/Sophia&Mark.jpg', alt: 'Sophia and Mark Scenario Chart' },
 ];
 
 export default function Scenario() {

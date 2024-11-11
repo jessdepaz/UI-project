@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav className="flex items-center p-4 bg-gray-800">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
-        <img src="favicon.png" alt="Logo" class="w-8 h-8" />
+        <img src="favicon.png" alt="Logo" className="w-8 h-8" />
           <Link href="/" className = "text-white font-semibold">BlissfulPages</Link>
         </div>
         <div className="space-x-4">

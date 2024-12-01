@@ -21,7 +21,7 @@ export default function WireframeGallery() {
           style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
           width="800"
           height="450"
-          src="https://embed.figma.com/design/l63soRl15awlQYJqt7s2II/BlissfulPages-Wireframe?node-id=0-1&embed-host=share"
+          src="https://embed.figma.com/design/tu1KqY7bKU46JDoYBLBEcF/BlissfulPages-Wireframe-(Copy)?node-id=0-1&embed-host=share"
           allowFullScreen
         ></iframe>
         <p className="text-md mb-6">

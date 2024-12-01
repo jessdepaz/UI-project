@@ -21,7 +21,7 @@ export default function Prototype() {
           style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
           width="800"
           height="450"
-          src="https://embed.figma.com/design/l63soRl15awlQYJqt7s2II/BlissfulPages-Wireframe?node-id=0-1&embed-host=share"
+          src="https://embed.figma.com/proto/l63soRl15awlQYJqt7s2II/BlissfulPages-Prototype?node-id=5-326&node-type=canvas&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A326&embed-host=share"
           allowFullScreen
         ></iframe>
         {/* <p className="text-md mb-6">

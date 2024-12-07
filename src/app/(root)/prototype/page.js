@@ -13,7 +13,7 @@ export default function Prototype() {
       <div className="container mx-auto p-6">
         <h1 className="text-4xl font-bold mb-4">Prototype</h1>
         <p className="text-md mb-6">
-          Below is Figma Embed showcasing our Prototype.
+          Below is a Figma Embed showcasing our Prototype of BlissfulPages.
         </p>
         <div className="flex flex-col space-y-4 overflow-y-auto">
         <iframe

@@ -21,20 +21,21 @@ export default function AboutUs() {
           {/* Jessica De-Paz */}
           <div className="text-left">
             <Image
-              src="/images/about/JessicaHeadshot.jpg"
+              src="/images/headshots/JessicaHeadshot.JPG"
               alt="Jessica De-Paz"
               width={150}
               height={150}
               className="rounded-full mx-auto"
             />
             <h2 className="mt-4 text-xl font-semibold text-left">Jessica De-Paz</h2>
-            <p className="text-left">Magna cillum fugiat elit culpa nulla Lorem irure elit minim. Elit labore duis aliquip Lorem ipsum ut nostrud adipisicing fugiat nisi consectetur magna. Enim in ipsum pariatur exercitation ea elit sunt enim fugiat ut officia in laboris sunt.</p>
+            <p className="text-left">Jessica De-Paz is a Senior pursuing a Bachelor of Arts in Computer Science at Florida International University, with a primary focus on Software and Web Development. Specializing in the intersection of Human-Computer Interaction, leveraging these principles to enhance development processes to create seamless and functional user experiences.
+            </p>
           </div>
 
           {/* Kristian Correa */}
           <div className="text-left">
             <Image
-              src="/images/about/KristianHeadshot.jpg"
+              src="/images/headshots/KristianHeadshot.jpg"
               alt="Kristian Correa"
               width={150}
               height={150}
@@ -47,14 +48,15 @@ export default function AboutUs() {
           {/* Valerie Benedit */}
           <div className="text-left">
             <Image
-              src="/images/about/ValerieHeadshot.jpg"
+              src="/images/headshots/ValerieHeadshot.jpeg"
               alt="Valerie Benedit"
               width={150}
               height={150}
               className="rounded-full mx-auto"
             />
             <h2 className="mt-4 text-xl font-semibold text-left">Valeria Benedit</h2>
-            <p className="text-left">Nulla ad magna laboris laborum nisi aute non magna excepteur tempor pariatur elit consectetur voluptate. Duis voluptate mollit ad aliquip. Laboris anim sint reprehenderit nostrud minim quis non nulla do deserunt magna. Fugiat laborum ad amet nostrud commodo do labore magna adipisicing reprehenderit sunt ullamco sunt. Incididunt aute nulla fugiat ut officia voluptate. Ullamco aliquip nostrud commodo velit sit velit aliquip labore ex qui excepteur. Deserunt laboris dolor cillum labore sit irure consequat incididunt esse.</p>
+            <p className="text-left">Valerie Benedit is a Junior student at Florida International University. She is a double major in Computer Science and Mathematics. Her main focus is in the area of Data Science and understanding the impact of data in everyday life.
+            </p>
           </div>
         </div>
       </div>

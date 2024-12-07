@@ -35,7 +35,7 @@ export default function Research() {
           <h3 className="text-xl font-medium mb-2">Statistical Analysis:</h3>
           <h4 className="text-lg font-medium mb-2">Multi-regression Model:</h4>
           <p>
-            y = 0.344 -0.355buttons – 0.274LikedFeatures + 1.42ExperiencedSomething – 0.39LearnedSomething + 
+            y = 0.344 -0.355buttons – 0.274LikedFeatures + 1.42ExperiencedSomething – 0.39LearnedSomething +
             0.377EnjoyedSomething – 0.299didSomething + 0.136easyToUse + 0.621Helpful + 0.218Interactive
           </p>
           <h4 className="text-lg font-medium mb-2">Model Summary:</h4>
@@ -46,20 +46,135 @@ export default function Research() {
 
         <section className="mb-6">
           <h4 className="text-lg font-medium mb-2">Analysis of Variance:</h4>
+          <img
+            src="images/research/survey-results-1.png"
+            alt="ANOVA Summary Table"
+            className="mb-4 rounded-lg shadow-lg"
+          />
           <p>
-            ANOVA Summary Table:
-            <br />
-            Regression Sum of Squares: 84.315<br />
-            Residual Sum of Squares: 26.547<br />
-            Total Sum of Squares: 110.862<br />
-            Significance: &lt;0.001
+            As can be seen, the Mean Square Error is 0.483 which is fairly small. Also, we have a p-value that is (having less than sign here cause an error)0.01 which is less than 0.05 which means the model is significant. Therefore, the null hypothesis is rejected; the model shows that better features will result in more people using the website in the future. Next, more tests should be done to determine how to optimize the model.
+          </p>
+        </section>
+
+        <section className="mb-6">
+          <h4 className="text-lg font-medium mb-2">Scatter Plot of the Full Model:</h4>
+          <img
+            src="images/research/survey-results-1.png"
+            alt="Scatter Plot"
+            className="mb-4 rounded-lg shadow-lg"
+          />
+          <section className="mb-6">
+            <h4 className="text-lg font-medium mb-2">Box-Plots of each variable:</h4>
+
+            {/* First row of images */}
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <img
+                src="images/research/survey-results-1.png"
+                alt="Box Plot 1"
+                className="w-full rounded-lg shadow-lg"
+              />
+              <img
+                src="images/research/survey-results-2.png"
+                alt="Box Plot 2"
+                className="w-full rounded-lg shadow-lg"
+              />
+            </div>
+
+            {/* Second row of images */}
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <img
+                src="images/research/survey-results-3.png"
+                alt="Box Plot 3"
+                className="w-full rounded-lg shadow-lg"
+              />
+              <img
+                src="images/research/survey-results-4.png"
+                alt="Box Plot 4"
+                className="w-full rounded-lg shadow-lg"
+              />
+            </div>
+
+            {/* Third row of images */}
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <img
+                src="images/research/survey-results-5.png"
+                alt="Box Plot 5"
+                className="w-full rounded-lg shadow-lg"
+              />
+              <img
+                src="images/research/survey-results-6.png"
+                alt="Box Plot 6"
+                className="w-full rounded-lg shadow-lg"
+              />
+            </div>
+
+            {/* Fourth row of images */}
+            <div className="grid grid-cols-2 gap-4 mb-6">
+              <img
+                src="images/research/survey-results-7.png"
+                alt="Box Plot 7"
+                className="w-full rounded-lg shadow-lg"
+              />
+              <img
+                src="images/research/survey-results-8.png"
+                alt="Box Plot 8"
+                className="w-full rounded-lg shadow-lg"
+              />
+              <p>
+                As can be seen from analyzing the box-plots for each variable, there are between two to three outliers in the data. Therefore, this may cause the model to be slightly skewed.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <section className="mb-6">
+          <h4 className="text-lg font-medium mb-2">Matrix-Plot Analyzing all Variables:</h4>
+          <img 
+            src="images/research/survey-results-1.png" 
+            alt="Matrix-Plot" 
+            className="mb-4 rounded-lg shadow-lg"
+          />
+          <p>
+          The matrix-plot shows a linear relationship between excited_future with interactive, helpful, and enjoyed. Also, there seems to be some multicollinearity happening between some of the variables. As a result, more tests should be conducted to decide on whether the model should only contain the variables interactive, helpful, and enjoyed to make accurate predictions. 
+          </p>
+        </section>
+
+        <section className="mb-6">
+          <h4 className="text-lg font-medium mb-2">Coefficient Analysis:</h4>
+          <img 
+            src="images/research/survey-results-1.png" 
+            alt="Matrix-Plot" 
+            className="mb-4 rounded-lg shadow-lg"
+          />
+          <p>
+          Upon analyzing the coefficients, one my conclude that indeed there is multicollinearity within the variables. Specifically, there is strong multicollinearity with enjoyed, did_something, helpful, and interactive. Although helpful has multicollinearity, it is the only variable that is of significant importance. As a result, the previous assumption from the matrix plots seems true; the variables interactive, helpful, and enjoyed may be the best choice of regressors for the model. Yet, more tests should be run to validate whether or not some of the variables with lower VIF scores should be kept. 
+          </p>
+        </section>
+        
+        <section className="mb-6">
+          <h4 className="text-lg font-medium mb-2">Residual Analysis:</h4>
+          <img 
+            src="images/research/survey-results-1.png" 
+            alt="Histogram" 
+            className="mb-4 rounded-lg shadow-lg"
+          />
+          <p>
+          This bar graph shows that the data is slightly left-skewed. This error may be corrected by either collecting mor surveys, or adapting the model according to the above analysis regarding variable reduction.
+          </p>
+          <img 
+            src="images/research/survey-results-1.png" 
+            alt="Scatterplot" 
+            className="mb-4 rounded-lg shadow-lg"
+          />
+          <p>
+          As can be seen from the above scatter plot, the residuals tend to be funnel shaped which point to a slightly problematic model.
           </p>
         </section>
 
         <section className="mb-6">
           <h3 className="text-xl font-medium mb-2">Conclusion:</h3>
           <p>
-            To conclude, the data collected from the surveys regarding the future of Blissful Pages seems to be promising. There is evidence that the model is significant and there is a positive linear relationship between the variables interactive, helpful, and enjoyed. For the future, speaking with a HCI expert could help us determine which variables are of most importance to perfect and better understand the model, or working on a few linear transformations within the variables may help create a better model. The team looks forward to the future of Blissful Pages.
+          To conclude, the data collected from the surveys regarding the future of Blissful Pages seems to be promising. There is evidence that the model is significant and there is a positive linear relationship between the variables interactive, helpful, and enjoyed. For the future, speaking with a HCI expert could help us determine which variables are of most importance to perfect and better understand the model, or working on a few linear transformations within the variables may help create a better model. To end, the team looks forward for the future of Blissful Pages.
           </p>
         </section>
       </div>

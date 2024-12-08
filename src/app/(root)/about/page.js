@@ -35,14 +35,15 @@ export default function AboutUs() {
           {/* Kristian Correa */}
           <div className="text-left">
             <Image
-              src="/images/headshots/KristianHeadshot.jpg"
+              src="/images/headshots/KristianHeadshot.jpeg"
               alt="Kristian Correa"
               width={150}
               height={150}
               className="rounded-full mx-auto"
             />
             <h2 className="mt-4 text-xl font-semibold text-left">Kristian Correa</h2>
-            <p className="text-left">Laborum laboris cillum reprehenderit ex Lorem in fugiat culpa consectetur mollit nulla. Sunt deserunt sint deserunt enim ullamco ad elit nisi. Officia laborum cillum et duis nostrud proident qui excepteur officia aliqua nostrud. Irure laborum proident aute officia anim. Eu sit dolor aliquip adipisicing ut ex veniam laborum enim duis mollit dolore deserunt. Amet sint fugiat do laborum sint reprehenderit. Ullamco adipisicing incididunt adipisicing ad laboris incididunt aliqua cupidatat sit laboris qui.</p>
+            <p className="text-left">Kristian Correa is a Computer Science major at Florida International University, currently interning as a Software Developer at Google. He is passionate about creating innovative software solutions and is actively advancing his skills in user-centered design by taking a course in Human-Computer Interaction.
+            </p>
           </div>
 
           {/* Valerie Benedit */}

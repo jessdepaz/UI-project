@@ -72,7 +72,7 @@ export default function Research() {
             className="mb-4 rounded-lg shadow-lg"
           />
           <p>
-            As can be seen, the Mean Square Error is 0.483 which is fairly small. Also, we have a p-value that is (having less than sign here cause an error)0.01 which is less than 0.05 which means the model is significant. Therefore, the null hypothesis is rejected; the model shows that better features will result in more people using the website in the future. Next, more tests should be done to determine how to optimize the model.
+            As can be seen, the Mean Square Error is 0.483 which is fairly small. Also, we have a significant p-value that is less than the alpha value of 0.05. Hence, the model is significant. Therefore, the null hypothesis is rejected; the model shows that better features will result in more people using the website in the future. Next, more tests should be done to determine how to optimize the model.
           </p>
         </section>
 

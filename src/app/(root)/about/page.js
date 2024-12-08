@@ -21,7 +21,7 @@ export default function AboutUs() {
           {/* Jessica De-Paz */}
           <div className="text-left">
             <Image
-              src="/images/headshots/JessicaHeadshot.JPG"
+              src="/images/headshots/JessicaHeadshot.jpeg"
               alt="Jessica De-Paz"
               width={150}
               height={150}

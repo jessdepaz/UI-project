@@ -162,7 +162,7 @@ export default function Research() {
         <section className="mb-6">
           <h4 className="text-lg font-medium mb-2">Correlation Analysis:</h4>
           <img
-            src="images/research/CorrelationHeatMap.jpeg"
+            src="/images/research/CorrelationHeatmap.jpeg"
             alt="Correlation Heat Map"
             className="mb-4 rounded-lg shadow-lg"
           />

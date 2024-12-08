@@ -55,7 +55,7 @@ export default function AboutUs() {
               height={150}
               className="rounded-full mx-auto"
             />
-            <h2 className="mt-4 text-xl font-semibold text-left">Valeria Benedit</h2>
+            <h2 className="mt-4 text-xl font-semibold text-left">Valerie Benedit</h2>
             <p className="text-left">Valerie Benedit is a Junior student at Florida International University. She is a double major in Computer Science and Mathematics. Her main focus is in the area of Data Science and understanding the impact of data in everyday life.
             </p>
           </div>

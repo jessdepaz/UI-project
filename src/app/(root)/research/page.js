@@ -67,8 +67,8 @@ export default function Research() {
         <section className="mb-6">
           <h4 className="text-lg font-medium mb-2">Analysis of Variance:</h4>
           <img
-            src="images/research/survey-results-1.png"
-            alt="ANOVA Summary Table"
+            src="images/research/AnovaTable.png"
+            alt="Analysis of Variance Summary Table"
             className="mb-4 rounded-lg shadow-lg"
           />
           <p>
@@ -79,9 +79,9 @@ export default function Research() {
         <section className="mb-6">
           <h4 className="text-lg font-medium mb-2">Scatter Plot of the Full Model:</h4>
           <img
-            src="images/research/survey-results-1.png"
-            alt="Scatter Plot"
-            className="mb-4 rounded-lg shadow-lg"
+            src="images/research/ScatterplotOfFullModel.jpeg"
+            alt="Scatter Plot of Full Model"
+            className="mb-4 rounded-lg shadow-lg w-1/2"
           />
           <section className="mb-6">
             <h4 className="text-lg font-medium mb-2">Box-Plots of each variable:</h4>
@@ -89,12 +89,12 @@ export default function Research() {
             {/* First row of images */}
             <div className="grid grid-cols-2 gap-4 mb-6">
               <img
-                src="images/research/survey-results-1.png"
+                src="images/research/BoxPlot1.jpeg"
                 alt="Box Plot 1"
                 className="w-full rounded-lg shadow-lg"
               />
               <img
-                src="images/research/survey-results-2.png"
+                src="images/research/BoxPlot2.jpeg"
                 alt="Box Plot 2"
                 className="w-full rounded-lg shadow-lg"
               />
@@ -103,12 +103,12 @@ export default function Research() {
             {/* Second row of images */}
             <div className="grid grid-cols-2 gap-4 mb-6">
               <img
-                src="images/research/survey-results-3.png"
+                src="images/research/BoxPlot3.jpeg"
                 alt="Box Plot 3"
                 className="w-full rounded-lg shadow-lg"
               />
               <img
-                src="images/research/survey-results-4.png"
+                src="images/research/BoxPlot4.jpeg"
                 alt="Box Plot 4"
                 className="w-full rounded-lg shadow-lg"
               />
@@ -117,12 +117,12 @@ export default function Research() {
             {/* Third row of images */}
             <div className="grid grid-cols-2 gap-4 mb-6">
               <img
-                src="images/research/survey-results-5.png"
+                src="images/research/BoxPlot5.jpeg"
                 alt="Box Plot 5"
                 className="w-full rounded-lg shadow-lg"
               />
               <img
-                src="images/research/survey-results-6.png"
+                src="images/research/BoxPlot6.jpeg"
                 alt="Box Plot 6"
                 className="w-full rounded-lg shadow-lg"
               />
@@ -131,12 +131,12 @@ export default function Research() {
             {/* Fourth row of images */}
             <div className="grid grid-cols-2 gap-4 mb-6">
               <img
-                src="images/research/survey-results-7.png"
+                src="images/research/BoxPlot7.jpeg"
                 alt="Box Plot 7"
                 className="w-full rounded-lg shadow-lg"
               />
               <img
-                src="images/research/survey-results-8.png"
+                src="images/research/BoxPlot8.jpeg"
                 alt="Box Plot 8"
                 className="w-full rounded-lg shadow-lg"
               />
@@ -150,7 +150,7 @@ export default function Research() {
         <section className="mb-6">
           <h4 className="text-lg font-medium mb-2">Matrix-Plot Analyzing all Variables:</h4>
           <img
-            src="images/research/survey-results-1.png"
+            src="images/research/Matrix.jpeg"
             alt="Matrix-Plot"
             className="mb-4 rounded-lg shadow-lg"
           />
@@ -162,14 +162,14 @@ export default function Research() {
         <section className="mb-6">
           <h4 className="text-lg font-medium mb-2">Correlation Analysis:</h4>
           <img
-            src="images/research/survey-results-1.png"
-            alt="Matrix-Plot"
+            src="images/research/CorrelationHeatMap.jpeg"
+            alt="Correlation Heat Map"
             className="mb-4 rounded-lg shadow-lg"
           />
-          
+
           <img
-            src="images/research/survey-results-1.png"
-            alt="Matrix-Plot"
+            src="images/research/CorrelationRating.jpeg"
+            alt="Correlation Rating"
             className="mb-4 rounded-lg shadow-lg"
           />
           
@@ -181,8 +181,8 @@ export default function Research() {
         <section className="mb-6">
           <h4 className="text-lg font-medium mb-2">Coefficient Analysis:</h4>
           <img
-            src="images/research/survey-results-1.png"
-            alt="Matrix-Plot"
+            src="images/research/CoefficientsTable.jpeg"
+            alt="Coefficients Table"
             className="mb-4 rounded-lg shadow-lg"
           />
           <p>
@@ -193,7 +193,7 @@ export default function Research() {
         <section className="mb-6">
           <h4 className="text-lg font-medium mb-2">Residual Analysis:</h4>
           <img
-            src="images/research/survey-results-1.png"
+            src="images/research/Histogram.jpeg"
             alt="Histogram"
             className="mb-4 rounded-lg shadow-lg"
           />
@@ -201,7 +201,7 @@ export default function Research() {
             This bar graph shows that the data is slightly left-skewed. This error may be corrected by either collecting mor surveys, or adapting the model according to the above analysis regarding variable reduction.
           </p>
           <img
-            src="images/research/survey-results-1.png"
+            src="images/research/Scatterplot.jpeg"
             alt="Scatterplot"
             className="mb-4 rounded-lg shadow-lg"
           />

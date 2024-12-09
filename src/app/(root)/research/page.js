@@ -27,7 +27,13 @@ export default function Research() {
           <p className="mb-2">
             Rate your experience with Blissful Pages. 1= Strongly disagree, 2 = Disagree, 3 = Neutral, 4 = Agree, 5 = Strongly Agree.Access the prototype website here: https://ui-project-tan.vercel.app/prototype. Each question had 5 stars for a person to rate each question.
           </p>
-          <h3 className="text-xl font-medium mb-2">Survey Questions:</h3>
+          <h3 className="text-xl font-medium mb-2"><a 
+      href="https://forms.office.com/pages/responsepage.aspx?id=qOV5rOTgS0OikiyJtcKDZnZMkSce4dBBnb6eWUl2rx5UQzZRRDZEMU9GVk1KWlZQU0JYR0FROVE4RC4u&route=shorturl" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="text-blue-500 underline">
+      Survey Questions: 
+    </a></h3>
           <ul>
             <li>I was able to try out the buttons</li>
             <li>I liked some of the features</li>
